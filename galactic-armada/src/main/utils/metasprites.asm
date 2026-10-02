@@ -22,7 +22,6 @@ DrawMetasprites::
     ld b, a
 
     ; stop if the y position is 128 
-    ld a, b
     cp 128
     ret z
 
